@@ -1,0 +1,170 @@
+/* Phones */
+@media screen and (min-width: 0px) {
+    .footer-row {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2em 0;
+
+    }
+
+    .edge-column {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .center-column {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        order: 1;
+
+
+    }
+
+    .footer {
+        background-color: black;
+    }
+
+    .footer-menu {
+        list-style: none;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .footer-title {
+        font-family: Brandon Grotesque black;
+        font-size: 1.2em;
+        text-decoration: none;
+        display: block;
+        margin: 0em 0 0.5em 0;
+        color: white;
+    }
+
+    .footer-text {
+        font-family: Brandon Grotesque Light;
+        font-size: 0.9em;
+        text-decoration: none;
+        display: block;
+        margin: 0.5em 0 0 0;
+        color: white;
+    }
+
+    .footer-link {
+        font-family: Brandon Grotesque Light;
+        font-size: 0.90rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        margin: 0.5rem 0;
+        color: white;
+    }
+
+    .footer-link:hover {
+        font-family: Brandon Grotesque Black;
+
+    }
+
+    .footer-link::after {
+        display: block;
+        content: attr(title);
+        font-family: Brandon Grotesque Light;
+        overflow: hidden;
+        height: 0px;
+        visibility: hidden;
+    }
+    .social-media{
+        flex-direction: row;
+        justify-content: center
+    }
+    .logo-footer {
+        height: 100px;
+    }
+
+    .senai-footer {
+        display: block;
+        height: 25px;
+        margin: 20px auto;
+    }
+
+    .icon-footer {
+        height: 40px;
+        width: 40px;
+        margin: 0 10px;
+
+    }
+
+    .footer-contato {
+        margin: 2rem 0;
+        text-align: center;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 600px)  {
+
+}
+
+/* Tablet-Landscape */
+@media screen and (min-width: 900px)  {
+    .footer-row{    
+        flex-direction: row;
+        padding: 2em;
+    }
+    .center-column {
+      margin: 0;
+      order: 0;
+
+    }
+    .edge-column {
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .footer-contato {
+        text-align: left;
+    }
+
+    .social-media{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .icon-footer {
+        height: 20px;
+        width: 20px;
+        margin: 0;
+
+    }
+  
+}
+
+/* Desktop */
+@media (min-width: 1020px) {
+    .footer-row{    
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop-Large */
+@media (min-width: 1800px) {
+  
+}
